@@ -53,3 +53,6 @@ a game to choose right color
 7 当蛇移动到变色龙身边时游戏结束
 
 8 当到达某一分数（很高，预计可到达的人占玩家比例<1%），屏幕上方掉下超胖变色龙把蛇压死，游戏结束。
+
+界面原型：
+![image](https://github.com/chendongmidong/SaveChameleon/prototype.png)
