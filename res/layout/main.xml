@@ -16,11 +16,10 @@
             <Button
                     android:id="@+id/pause_button"
                     android:background="@drawable/pause"
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
                     android:layout_alignParentLeft="true"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginLeft="20dp"/>
+                    />
 
             <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
                     android:id="@+id/time_bar"
@@ -43,13 +42,14 @@
             android:background="#FFFFFF"
             android:layout_width="match_parent" android:layout_height="4dp"/>
     <FrameLayout
+            android:id="@+id/button_layout"
             android:layout_weight="2"
             android:layout_width="match_parent" android:layout_height="0dp">
-        <fragment
-                android:id="@+id/four_button_fragment"
-                android:name="com.example.SaveChameleon.fragment.FourButtonFragment"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" tools:layout="@layout/four_button"/>
+        <!--<fragment-->
+                <!--android:id="@+id/four_button_fragment"-->
+                <!--android:name="com.example.SaveChameleon.fragment.FourButtonFragment"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent" tools:layout="@layout/four_button"/>-->
     </FrameLayout>
 </LinearLayout>
 

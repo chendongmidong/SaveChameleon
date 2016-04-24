@@ -26,7 +26,6 @@ import java.util.Locale;
 public class AnimationView extends View implements ValueAnimator.AnimatorUpdateListener {
 
     AnimatorSet animation = new AnimatorSet();
-    private float mDensity;
     Bitmap snakeBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.snake);
     Bitmap frogBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.frog);
     int bitmap_w,bitmap_h;
